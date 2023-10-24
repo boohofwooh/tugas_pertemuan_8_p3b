@@ -24,8 +24,7 @@ class MainActivity2 : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.action_logout -> {
-                supportFragmentManager.beginTransaction().replace(R.id.activity_main, RegisterFragment())
-                    .addToBackStack(null).commit()
+                finish()
                 Toast.makeText(this, "Logout Berhasil", Toast.LENGTH_SHORT).show()
                 true
             }
