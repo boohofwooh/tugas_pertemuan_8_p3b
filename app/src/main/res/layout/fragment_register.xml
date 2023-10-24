@@ -107,7 +107,7 @@
             android:background="@null"
             android:textSize="14sp"
             android:hint="Password"
-            android:inputType="text|textNoSuggestions"
+            android:inputType="textPassword"
             android:paddingStart="32dp"
             android:paddingEnd="32dp"/>
     </LinearLayout>
